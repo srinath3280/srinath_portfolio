@@ -24,7 +24,7 @@ const projects = [
     {
         title: "Language Learning Platform",
         techStack:
-            "React.js, JavaScript, Material UI, Node.js, Express.js, MySQL, JWT, bcryptjs, Azure Text-to-Speech, Whisper Speech-to-Text, OTP Integration",
+            "React.js, JavaScript, Material UI, Node.js, Express.js, Python, FastAPI, MySQL, JWT, bcryptjs, Azure Text-to-Speech, OpenAI Whisper Speech-to-Text, OTP Integration",
         description: [
             "Developed a structured learning flow where users navigate through subscribed classes, subjects, lessons, topics, and learning content.",
             "Built interactive language practice modules including Read, Type, Pick, and Arrange exercises to enhance the learning experience.",

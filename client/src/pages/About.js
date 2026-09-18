@@ -39,11 +39,11 @@ export default function About() {
 
     const handleDownload = () => {
 
-        const pdfUrl = '/files/Srinath_Lingadahalli_Software_Developer_Resume.pdf';
+        const pdfUrl = '/files/Srinath_Lingadahalli_Resume.pdf';
 
         const link = document.createElement('a');
         link.href = pdfUrl;
-        link.setAttribute('download', 'Srinath_Lingadahalli_Software_Developer_Resume.pdf');
+        link.setAttribute('download', 'Srinath_Lingadahalli_Resume.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

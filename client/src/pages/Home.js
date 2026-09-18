@@ -174,11 +174,11 @@ export default function Home() {
 
     const handleDownload = () => {
 
-        const pdfUrl = '/files/Srinath_Lingadahalli_Software_Developer_Resume.pdf';
+        const pdfUrl = '/files/Srinath_Lingadahalli_Resume.pdf';
 
         const link = document.createElement('a');
         link.href = pdfUrl;
-        link.setAttribute('download', 'Srinath_Lingadahalli_Software_Developer_Resume.pdf');
+        link.setAttribute('download', 'Srinath_Lingadahalli_Resume.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -306,7 +306,7 @@ export default function Home() {
             <Box sx={{ py: 5, px: 2, maxWidth: 900, mx: 'auto', textAlign: 'center' }}>
                 <Typography variant="h4" sx={{ fontWeight: 700, color: '#0f1f3d' }}>Professional Bio</Typography>
                 <Typography variant="body1" sx={{ mt: 3, color: '#111111ff', lineHeight: { xs: 1.5, sm: 1.7 }, textAlign: { xs: "left", sm: "justify" }, fontSize: { xs: "0.8rem", sm: "0.9rem", md: "1rem" }, px: { xs: 1, sm: 3 }, }}>
-                    Software Developer with 3 years of experience developed scalable web applications using JavaScript, React.js, Node.js, Express.js, and MySQL. Skilled in crafting responsive user interfaces, securing Restful APIs, enforcing JWT-based authentication, and integrating third-party services to deliver end-to-end business futures. Focused on resolving complex technical challenges, writing clean and maintainable code, and shipping reliable, high-performance applications.
+                    Software Developer with 3 years of professional experience designing and developing enterprise frontend and backend solutions. Experienced in building scalable applications, improving system performance, and delivering reliable software through clean architecture, efficient problem-solving, and continuous learning.
                 </Typography>
                 <Button
                     variant="outlined"
